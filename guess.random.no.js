@@ -14,10 +14,12 @@ function guessNumber() {
     while (number !== random && num < 4) {
         //  !== will help in continuing the while loop until number is not equal to(!==) random 
         number = parseInt(prompt('Guess a number from 1 to 10: '));
+        // the num will be increased by 1 with every wrong attempt
         num += 1;
         console.log(num)
         if (num == 4) {
             window.alert("your tries are over")
+            // break the loop when num == 4
             break
         }
     }
