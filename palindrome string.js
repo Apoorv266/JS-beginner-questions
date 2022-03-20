@@ -46,18 +46,28 @@ function checkPalindrome(string) {
     // find the length of a string
     const len = string.length;
     console.log(len)
-    console.log(len - 1)
     console.log(len/2)
 
     // loop through half of the string
     for (let i = 0; i < len / 2; i++) {
 
         // check if first and last string are same
-        if (string[i] !== string[len - 1 - i]) {   //string is broken into two halves and first half is checked from behind half..if both are equal then its palindrome and if not equal , not a palindrome
+        if (string[i] !== string[len - 1 - i]) {   
+            
+            //string is broken into two halves and first half is checked from behind half..if both are equal then its palindrome and if not equal , not a palindrome
+
+            // string[i] = r,a,d,a,r (from front)
+            // string[len - 1 - i] = r,a,d,a,r (from behind)
+
+            // since string[i] == string[len - 1 - i] ==> this if will exit 
+
+            //this if condition will check all the values from front and back and if anyone of the digit becomes unequal then it will print 'It is not a palindrome'
+
+
             return 'It is not a palindrome';
         }
     }
-    return 'It is a palindrome';
+    return `${str} is palindrome`;
 }
 
 // take input
