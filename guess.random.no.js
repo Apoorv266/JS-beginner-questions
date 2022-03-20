@@ -24,8 +24,8 @@ function guessNumber() {
 
     // check if the guess is correct
     if (number == random) {
-        window.alert(`You guessed the correct number in ${num} attempts`);
-    }
+        window.alert(`You guessed the correct number in ${num} attempts! good luck`);
+    } 
 
 }
 
