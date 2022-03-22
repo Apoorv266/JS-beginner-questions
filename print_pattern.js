@@ -14,6 +14,14 @@
 let num = 100000;
 
 let temp = num;
+// we have stored num in temp because we need an updated value which is 1 which is the beginning point of 2nd loop
+
+// 100000
+// 10000
+// 1000
+// 100
+// 10
+// 1
 
 // while (temp > 0) {
 //   temp = parseInt(temp / 10);
@@ -24,14 +32,10 @@ let temp = num;
 //   }
 // }
 
+
 // a while loop as well as a for loop can be used----we would ignore the increment because incriment would increase the temp by 1..so evertime temp would again enter the loop 1 will be added for example 11,101, 1001,100001 instead we want 10, 100, 1000, 1000..
 
-// 100000
-// 10000
-// 1000
-// 100
-// 10
-// 1
+// in for loop we would also not assign the value to i because we can directly use temp
 
 // for loop instead of while loop
 
