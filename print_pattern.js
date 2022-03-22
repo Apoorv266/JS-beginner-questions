@@ -41,7 +41,7 @@ let temp = num;
 
 console.log(num)
 for (; temp > 0;) {
-  temp = parseInt(temp / 10);
+  temp = temp / 10;
   console.log(temp)
   
   if (temp === 1) {
