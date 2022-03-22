@@ -36,19 +36,21 @@ let temp = num;
 // for loop instead of while loop
 
 console.log(num)
-for (let i = temp; temp > 0;) {
+for (; temp > 0;) {
   temp = parseInt(temp / 10);
   console.log(temp)
-
-  // first store value of temp in i
-// we would divide temp with 10 and update the temp value that is obtained by dividing it by 10...the loop will take temp value divide by 10 as it passes the loop like 10000,1000,100,10,1
-
-// when temp becomes equal to 1 we break the loop
-
+  
   if (temp === 1) {
     break
   }
-}
+  }
+  
+// we would divide temp with 10 and update the temp value that is obtained by dividing it by 10...the loop will take temp value divide by 10 as it passes the loop like 10000,1000,100,10,1
+
+// since we just need final condition we can use while loop(shown above) instead of for loop
+
+// when temp becomes equal to 1 we break the loop
+
 
 // 1
 // 10
@@ -57,7 +59,7 @@ for (let i = temp; temp > 0;) {
 // 10000
 // 100000
 
-
+// temp now is = 1
 for (let i = temp; i < num;) {
   i = i * 10;
 
@@ -65,3 +67,5 @@ for (let i = temp; i < num;) {
   
   console.log(i)
 }
+
+console.log("-----------------------------")
