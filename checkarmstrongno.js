@@ -68,6 +68,7 @@ for (i = a; i <= b; i++) {
     let numberOfDigits = i.toString().length;
     console.log(numberOfDigits)
     let sum = 0;
+
     while (temp > 0) {
         let remainder = i % 10;
         sum += remainder ** numberOfDigits;
@@ -80,4 +81,5 @@ for (i = a; i <= b; i++) {
     else {
         console.log(`${num} is not an armstrong number`)
     }
+    
 }
