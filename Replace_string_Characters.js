@@ -2,13 +2,13 @@
 
 // -------------------to replace first instance-----------------------------
 
-// const string = 'Mr Red has a red house and a red car';
+const string2 = 'Mr Red has a red house and a red car';
 
-// // replace the characters
-// const newText = string.replace('red', 'blue');
+// replace the characters
+const newText2 = string2.replace('red', 'blue');
 
-// // display the result
-// console.log(newText);
+// display the result
+console.log(newText2);
 
 // the replace() method is used to replace the specified string with another string.
 
@@ -28,4 +28,9 @@ const regex = /red/g;
 const newText = string.replace(regex, 'blue');
 
 // display the result
-document.write(newText);
+console.log(newText);
+
+// /g refers to global. It means that all the matching characters in the string are replaced.
+
+// Since JavaScript is case-sensitive, R and r are treated as different values
+
