@@ -9,7 +9,7 @@ for(let i = 0; i < str.length; i++){
 
     if(str.charAt(i) == letter){
 
-        // we would increase the "count" by 1 if the letter matches any of the character
+        // During each iteration, if the character at that index matches the required character to match, then the count variable is increased by 1.
         count += 1;
 
         // we would now append key value pairs which consist of index at which character was there(key) and the repeated character(value) to the empty object temp
