@@ -2,12 +2,18 @@ let str = "This is school"
 
 function countString(str, letter) {
 let count = 0;
+// count would indicate the number of occurences for a character
 
 let temp = {};
 for(let i = 0; i < str.length; i++){
+
     if(str.charAt(i) == letter){
+
+        // we would increase the "count" by 1 if the letter matches any of the character
         count += 1;
-        // temp = temp + str.charAt(i)
+
+        // we would now append key value pairs which consist of index at which character was there(key) and the repeated character(value) to the empty object temp
+
         temp[i] = str.charAt(i) ;
     }
 }
