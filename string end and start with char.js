@@ -16,4 +16,7 @@ else if (str.endsWith('G')) {
 else {
     console.log('The string does not start with S and does not end with G');
 }
-}
+} 
+
+// The startsWith() method checks if the string starts with the particular string.
+// The endsWith() method checks if the string ends with the particular string.
