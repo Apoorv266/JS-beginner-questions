@@ -12,6 +12,5 @@ for (let key in student) {
 
    let value = student[key];
 
-   console.log(key ,"=", value )
-} 
-
+   console.log(key  +  "="  +  value )
+}  
