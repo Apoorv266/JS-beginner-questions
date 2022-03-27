@@ -53,4 +53,5 @@ for (let i = 0; i < 3; i++) {
     checkString(string);
 }
 
-
+// The /^S/i pattern checks if the string is S or s. Here, i denotes that the string is case-insensitive. Hence, S and s are considered the same.
+// The /G$/i patterns checks if the string is G or g.
