@@ -1,6 +1,6 @@
 // program to loop through an object using for...in loop
 
-const student = { 
+const student = {
     name: 'John',
     age: 20,
     hobbies: ['reading', 'games', 'coding'],
@@ -8,9 +8,26 @@ const student = {
 
 
 // using for...in
-for (let key in student) { 
+for (let key in student) {
 
-   let value = student[key];
+    let value = student[key];
 
-   console.log(key  +  "="  +  value )
-}  
+    console.log(key + "=" + value)
+}
+
+
+//-------------Loop Through Object Using Object.entries and for...of-----------------
+console.log("---------------------------------------------------------")
+
+const student2 = {
+    name: 'John',
+    age: 20,
+    hobbies: ['reading', 'games', 'coding'],
+};
+
+// using Object.entries
+// using for...of loop
+
+for (let [key, value] of Object.entries(student)) {
+    console.log(key + " = " + value);
+}
