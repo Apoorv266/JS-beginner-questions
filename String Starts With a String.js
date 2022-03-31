@@ -17,9 +17,9 @@ else {
 
 // program to check if a string starts with another string
 
-const string = 'hello world';
+const string2 = 'hello world';
 
-const toCheckString = 'he';
+const toCheckString2 = 'he';
 
 let result = string.lastIndexOf(toCheckString, 0) === 0;
 if(result) {
