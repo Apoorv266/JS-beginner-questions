@@ -43,3 +43,5 @@ if(result) {
 else {
     console.warn(`The string does not starts with "he".`);
 }
+
+// /^ indicates the starting of the string.
