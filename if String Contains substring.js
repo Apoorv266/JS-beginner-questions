@@ -11,4 +11,4 @@ if(str.includes(checkString)) {
     console.log(`The string does not contain ${checkString}`);
 }
 
-// The includes() method is case-sensitive. Hence, fun and Fun are different.
+// The includes() method is case-sensitive
