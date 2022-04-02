@@ -27,3 +27,5 @@ console.log(result2);
 console.log(typeof result1);
 
 // When using the String() function on an Object, the converted result will give [object Object].
+
+// type of is used to tell which data type it is
