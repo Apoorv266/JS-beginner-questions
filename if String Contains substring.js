@@ -12,3 +12,4 @@ if(str.includes(checkString)) {
 }
 
 // The includes() method is case-sensitive
+// if...else statement to check whether a string contains the characters of a specified string.
