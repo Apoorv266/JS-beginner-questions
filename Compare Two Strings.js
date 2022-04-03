@@ -27,3 +27,24 @@ if(result2) {
 } else {
     console.log('The strings are not similar.');
 }
+
+
+//-------------------------Using localeCompare()-------------------------------------------
+
+const stringc = 'JavaScript Program';
+const stringd = 'javascript program';
+
+const result3 = string1.localeCompare(string2, undefined, { sensitivity: 'base' });
+
+if(result == 0) {
+    console.log('The strings are similar.');
+} else {
+    console.log('The strings are not similar.');
+}
+
+// localeCompare() method is used to perform case insensitive string comparison
+
+// localeCompare() method returns a number that indicates whether a reference string comes before, or after, or is the same as the given string.
+
+// Here, { sensitivity: 'base' } treats A and a as the same.
+
