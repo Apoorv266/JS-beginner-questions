@@ -1,8 +1,6 @@
 
 // program to find the ASCII value of a character
 
-// program to find the ASCII value of a character
-
 // take input from the user
 const string = prompt('Enter a character: ');
 
