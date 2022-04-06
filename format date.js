@@ -8,7 +8,7 @@ console.log("day is",day)
 
 // get the month from the date
 // + 1 because month starts from 0
-let month = currentDate.getMonth() + 1;
+let month = currentDate.getMonth() + 1;  //1 is added to the getMonth() method because month starts from 0. Hence, January is 0, February is 1, and so on.
 console.log("month is",month)
 
 // get the year from the date
