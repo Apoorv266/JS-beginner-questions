@@ -1,5 +1,5 @@
 // get local machine date time
-const date = new Date();
+const date = new Date(); // gives the current date and time.
 
 // get the date as a string
 const n = date.toDateString();   // Wed Aug 26 2020
