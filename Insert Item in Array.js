@@ -19,3 +19,6 @@ function insertElement() {
 // The first argument specifies the index where you want to insert an item.
 // The second argument (here 0) specifies the number of items to remove.
 // The third argument specifies the element that you want to add to an array.
+
+//-----------------------Add Item to Array Using for Loop---------------------------------
+
