@@ -19,3 +19,14 @@ checkObject(array);
 
 // Array.isArray() method is used to check if an object is an array
 // The Array.isArray() method returns true
+
+
+//.................................(Extra knowledge)...................................
+
+
+// Note: For an array, the typeof operator returns an object.
+
+// For example,
+
+// const arr = [1, 2, 3];
+// console.log(typeof arr); // object
