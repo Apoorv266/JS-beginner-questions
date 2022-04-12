@@ -36,4 +36,15 @@ addElement(array2);
 // The third argument is the element that you want to add to the array.
 
 
-//.............Add Element to Array Using Spread Operator................
+//...............Add Element to Array Using Spread Operator..................
+
+function addElement(arr) {
+    // adding element to array
+    arr = [4, ...arr];
+    console.log(arr);
+}
+
+const array3 = [1, 2, 3];
+
+// calling the function
+addElement(arr);
