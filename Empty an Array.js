@@ -33,3 +33,18 @@ console.log(result2);
 // The second argument is the number of elements that you want to remove from the index element.
 
 
+//.................Empty Array by Setting Length 0.............................
+
+function emptyArray(arr) {
+
+    // setting array length to 0
+    arr.length = 0;
+    
+    return arr;
+}
+
+const array3 = [1, 2 ,3];
+
+// call the function
+const result3 = emptyArray(array);
+console.log(result3);
