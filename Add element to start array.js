@@ -64,3 +64,6 @@ const array4 = [1, 2, 3];
 
 // calling the function
 addElement(array4);
+
+// The concat() method combines two arrays into one.
+
