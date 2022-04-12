@@ -48,3 +48,19 @@ const array3 = [1, 2, 3];
 
 // calling the function
 addElement(arr);
+
+
+//....................Add Element to Array Using concat().....................
+
+function addElement(arr) {
+
+    // adding element to array
+    arr = [4].concat(arr);
+    
+    console.log(arr);
+}
+
+const array4 = [1, 2, 3];
+
+// calling the function
+addElement(array4);
