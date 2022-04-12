@@ -39,7 +39,7 @@ function emptyArray(arr) {
 
     // setting array length to 0
     arr.length = 0;
-    
+
     return arr;
 }
 
@@ -48,3 +48,5 @@ const array3 = [1, 2 ,3];
 // call the function
 const result3 = emptyArray(array);
 console.log(result3);
+
+// When setting array.length to 0, all the elements of the array are removed.
