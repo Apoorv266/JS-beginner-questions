@@ -30,10 +30,10 @@ getUniqueAfterMerge(array1, array2);
 
 
 function getUniqueAfterMerge(arr3, arr4){
-let arr = [...arr3 , ...arr4]
+let arr = [...arr3 , ...arr4]  //Two array elements are merged together using the spread syntax ...
 
    // removing duplicate
-   let uniqueArr = [...new Set(arr)];
+   let uniqueArr = [...new Set(arr)];  //spread syntax ... is then used to include all the elements of the set back to an array.
 
    console.log(uniqueArr);
 }
