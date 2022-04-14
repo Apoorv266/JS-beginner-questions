@@ -25,7 +25,8 @@ getUnique(array);
 
 
 
-//..........Using Set........................
+//...................................Using Set........................................
+
 
 // program to remove duplicate value from an array
 
