@@ -9,4 +9,6 @@ function compareAge(a, b) {
 
 const students = [{name: 'Sara', age:24},{name: 'John', age:22}, {name: 'Jack', age:27}];
 
-console.log(students.sort(compareAge));
+console.log(students.sort(compareAge)); 
+
+// the sort() method is used to sort an array element by the age property.
