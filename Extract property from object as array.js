@@ -15,7 +15,14 @@ console.log(result);
 
 //.................... Extract Value Using for Loop......................
 
-
+function extractValue(arr, prop) {
+    let arr2 = []
+for (let i = 0; i < arr.length; i++) {
+    arr2.push(arr[i][prop])
+    
+}
+return arr2
+}
 
 let objArray2 = [{a:1, b:2}, {a:1, b:2}, {a:1, b:2}]
 
