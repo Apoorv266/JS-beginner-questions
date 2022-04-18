@@ -24,6 +24,8 @@ for (let i = 0; i < arr.length; i++) {
 return arr2
 }
 
+// During each iteration, the value of property a is pushed to the extractedValue array.
+
 let objArray2 = [{a:1, b:2}, {a:1, b:2}, {a:1, b:2}]
 
 const result2 = extractValue(objArray2, 'a');
