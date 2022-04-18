@@ -13,4 +13,11 @@ console.log(result);
 
 //The map() method is used to iterate through all the elements of an array and extract property values of key a.
 
+//.................... Extract Value Using for Loop......................
 
+
+
+let objArray2 = [{a:1, b:2}, {a:1, b:2}, {a:1, b:2}]
+
+const result2 = extractValue(objArray2, 'a');
+console.log(result2);
