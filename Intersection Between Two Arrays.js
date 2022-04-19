@@ -47,9 +47,13 @@ console.log(result);
 function performIntersection2(arr1, arr2) {
 const intersectionResult = arr1.filter(x => arr2.indexOf(x) !== -1)
 
-// x represents the each item of array6 aur ek ek item arr1 ka arr2 me pass hogi aur unka index check kiya jaega arr2 me...agar item jo arr1 me h aur arr2 me bhi h indexof -1 aega aur jo jo item arr1 ka indexof -1 nhi h(mtlb vo item arr2 me nhi h) arr2 me vo arr1 me add ho jaega
+// x represents the each item of array6 aur ek ek item arr1 ka arr2 me pass hogi aur unka index check kiya jaega arr2 me...agar item jo arr1 me h aur arr2 me nhi h to indexof -1 aega aur jo jo item arr1 me h aur arr2 me bhi h to indexof -1 nhi aega aur vo vo item arr1 me add ho jaega 
 
-// Return an array of all values in arry1[] that are in the array2 that is would not return -1
+//!== mtlb arr1 ka item jo arr2 me h aur item nhi hoga toh -1 return krega aur kab nhi karega jab item arr2 me hoga
+
+// The indexOf() method returns the position of the first occurrence of a value in a string.
+// The indexOf() method returns -1 if the value is not found.
+
 return intersectionResult;
 }
 const array6 = [1, 2, 3, 5, 9];
