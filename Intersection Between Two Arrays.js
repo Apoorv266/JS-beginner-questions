@@ -51,6 +51,8 @@ const intersectionResult = arr1.filter(x => arr2.indexOf(x) !== -1)
 
 //!== mtlb arr1 ka item jo arr2 me h aur item nhi hoga toh -1 return krega aur kab nhi karega jab item arr2 me hoga
 
+// jo jo arr1 ka item arr2 me indexof -1 nhi dera h mtlb vo arr2 me bhi h usko arr1 me add krdo
+
 // The indexOf() method returns the position of the first occurrence of a value in a string if the value is present 
 // The indexOf() method returns -1 if the value is not found.
 
