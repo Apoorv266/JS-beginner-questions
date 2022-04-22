@@ -16,7 +16,10 @@ checkVariable(newVariable);
 //......................using typeof........................................
 
 function checkVariable2(variable) {
-if(typeof variable === null || typeof variable === 'undefined'){
+
+//We cannot use the typeof operator for null as it returns object.
+
+if(variable === null || typeof variable === 'undefined'){
     console.log('The variable is undefined or null');
 }
 else {
