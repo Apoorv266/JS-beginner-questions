@@ -11,3 +11,5 @@ function validateEmail(email_id) {
 
 validateEmail('abc123@gmail.com');
 validateEmail('hello@com');
+
+// The test() method returns true if there is a match in the string with the regex pattern.
