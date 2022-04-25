@@ -22,7 +22,7 @@ testVariable(x);
 //................................using instanceof.....................................
 
 function testVariable2(variable) {
-    if(typeof variable === "function"){
+    if(variable instanceof Function){
     console.log("variable is a function")
     }
     else{
