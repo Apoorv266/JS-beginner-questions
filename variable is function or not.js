@@ -36,3 +36,5 @@ function testVariable2(variable) {
     
     testVariable2(x);
 
+    // In the above program, the instanceof operator is used to check the type of variable.
+
