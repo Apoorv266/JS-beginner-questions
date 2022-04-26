@@ -24,3 +24,6 @@ console.log(arr);                              //   ["work", "exercise", "eat", 
 
 // throws an error
 // const x; 
+
+
+//Constants are block-scoped. Hence the variable defined inside a block represents a different value than the one outside. For example,
