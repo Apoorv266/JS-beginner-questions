@@ -26,3 +26,29 @@ checkNumber(44);
 checkNumber(3.4);
 checkNumber(-3.4);
 checkNumber(NaN);
+
+
+//......................................Using Regex...................................
+
+// program to check if a number is a float or integer value
+
+function checkNumber2(x) {
+
+    let regexPattern = /^-?[0-9]+$/;
+
+    //The pattern /^-?[0-9]+$/ looks for the integer value.
+    
+    // check if the passed number is integer or float
+    let result = regexPattern.test(x);
+    
+    if(result) {
+        console.log(`${x} is an integer.`);
+    }
+    else {
+        console.log(`${x} is a float value.`)
+    }
+
+}
+
+checkNumber2(44);
+checkNumber2(-44);
