@@ -9,6 +9,7 @@ function checkNumber(x) {
     
         // check if it is integer
         if (Number.isInteger(x)) {
+            //The Number.isInteger() method is used to check if the number is an integer value.
             console.log(`${x} is integer.`);
         }
         else {
