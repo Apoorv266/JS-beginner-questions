@@ -4,6 +4,8 @@ function checkNumber(x) {
 
     // check if the passed value is a number
     if(typeof x == 'number' && !isNaN(x)){
+
+        //The isNaN() method checks if the passed value is a number.
     
         // check if it is integer
         if (Number.isInteger(x)) {
