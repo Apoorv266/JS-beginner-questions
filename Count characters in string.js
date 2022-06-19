@@ -15,7 +15,9 @@ function countChar(str) {
                if(charObj.hasOwnProperty(newArr[j])){
                     charObj[newArr[j]] = charObj[newArr[j]] + 1;
                 }
+            
                 else{
+                    console.log(newArr[j])
                     charObj[newArr[j]] = 1;
                 }
             }
