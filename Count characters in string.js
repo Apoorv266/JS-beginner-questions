@@ -1,4 +1,4 @@
-let str = "hello"
+let str = "hellloo"
 countChar(str)
 
 function countChar(str) {
@@ -22,6 +22,23 @@ function countChar(str) {
                 }
             }
         }
+    }
+    console.log(charObj)
+}
+
+
+console.log("..................making code short.................")
+
+
+let str2 = "hhhelllo"
+countChar(str2)
+
+function countChar(str) {
+    let charObj = {}
+    for (let char of str) {
+            if (/[a-z0-9]/.test(char)) {
+                (charObj.hasOwnProperty(char)) ? charObj[char] = charObj[char] + 1 :  charObj[char] = 1;
+            }
     }
     console.log(charObj)
 }
