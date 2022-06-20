@@ -3,8 +3,8 @@ function same(arr1, arr2){
         return false;
     }
     for(let i = 0; i < arr1.length; i++){
-        let correctIndex = arr2.indexOf(arr1[i] ** 2)
-        if(correctIndex === -1) {
+        let correctIndex = arr2.indexOf(arr1[i] ** 2)  // we check the index of item in array 2 
+        if(correctIndex === -1) {  // if 
             return false;
         }
         console.log(arr2);
