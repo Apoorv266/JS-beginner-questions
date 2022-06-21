@@ -1,30 +1,30 @@
 // create a program to check if value in one array are squared values in 2nd array
 
 
-let arr1 = [2, 3, 4]
+let arr1 = [5, 3, 4]
 
-let arr2 = [42, 92, 16]
+let arr2 = [4, 25, 16]
 
 
 function checkSqa(arr1, arr2) {
 
     for (let i = 0; i < arr1.length; i++) {
-        for (let j = 0; j < arr2.length; j++) {
+        // for (let j = 0; j < arr2.length; j++) {
 
-            if (arr1[i] * arr1[i] === arr2[j]) {
-                console.log("All items are double")
+            if (arr2.includes(arr1[i] ** 2)) {
+                return true
             }
 
-            // else{
-            //     console.log("All items are not double")
-            // }
+            else{
+                return false
+            }
 
-        }
+        // }
 
     }
 }
 
-checkSqa(arr1, arr2)
+console.log(checkSqa(arr1, arr2))
 
 
 //----------------------------------------------------------------------------------------
@@ -46,3 +46,35 @@ function same(arr1, arr2){
 }
 
 same([1,2,3,2], [9,1,4,4])
+
+
+
+console.log("..................................................")
+
+
+function same(arr1, arr2){
+    if(arr1.length !== arr2.length){
+        return false;
+    }
+    let frequencyCounter1 = {}
+    let frequencyCounter2 = {}
+    for(let val of arr1){
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
+    }
+    for(let val of arr2){
+        frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1        
+    }
+    console.log(frequencyCounter1);
+    console.log(frequencyCounter2);
+    for(let key in frequencyCounter1){
+        if(!(key ** 2 in frequencyCounter2)){
+            return false
+        }
+        if(frequencyCounter2[key ** 2] !== frequencyCounter1[key]){
+            return false
+        }
+    }
+    return true
+}
+
+same([1,2,3,2,5], [9,1,4,4,11])
