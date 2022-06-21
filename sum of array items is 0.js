@@ -42,7 +42,23 @@ function sumZero(arr2){
 }
 
 
+//........................count unique value in array.............................
 
+
+let arr = [1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13]
+
+checkUnique(arr)
+
+function checkUnique(arr){
+    let arr2 = []
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== arr[i + 1] ) {
+        arr2.push(arr[i])
+    }
+    
+}
+console.log(arr2.length)
+}
 
 
 
