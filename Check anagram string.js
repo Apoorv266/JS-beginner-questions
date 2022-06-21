@@ -60,12 +60,10 @@ function validAnagrajm(str1, str2) {
       if(!lookup[letter]){
         return falses
       }  
-
       else{
         lookup[letter] -= 1
       }
     }
-
     console.log(lookup)
 }
 
