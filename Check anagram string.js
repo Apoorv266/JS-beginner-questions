@@ -21,23 +21,6 @@ function checkAna(str1, str2) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function validAnagrajm(str1, str2) {
     if (str1.length !== str2.length) {
         return false;
@@ -58,7 +41,7 @@ function validAnagrajm(str1, str2) {
     for (let i = 0; i < str2.length; i++) {
       let letter = str2[i];
       if(!lookup[letter]){
-        return falses
+        return false
       }  
       else{
         lookup[letter] -= 1
