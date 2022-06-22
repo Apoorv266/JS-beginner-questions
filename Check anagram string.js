@@ -37,10 +37,12 @@ function validAnagrajm(str1, str2) {
             lookup[letter] = 1
         }
     }
+    console.log(lookup)
 
     for (let i = 0; i < str2.length; i++) {
       let letter = str2[i];
       if(!lookup[letter]){
+          lookup[str2[i]] = 1;
         return false
       }  
       else{
@@ -51,7 +53,7 @@ function validAnagrajm(str1, str2) {
 }
 
 let str1 = "anagram"
-let str2 = "nagaram"
+let str2 = "nagaramp"
 
 validAnagrajm(str1, str2)
 // checkAna(str1, str2)
